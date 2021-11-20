@@ -15,8 +15,8 @@ io.on("connection", (socket) => {
   socket.emit("newMessage", "hello world");
 });
 
-const port = 4000;
-const host = "137.184.64.67";
+const port = 3001;
+const host = "127.0.0.1";
 
 server.listen(port, host, () => {
   console.log(`Server listening http://${host}:${port}`);
